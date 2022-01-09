@@ -1,6 +1,5 @@
 from scrapy import Spider
 from scrapy.selector import Selector
-
 from stack.items import StackItem
 
 

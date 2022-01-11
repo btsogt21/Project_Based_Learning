@@ -1,0 +1,1 @@
+This project utilizes tweepy and twitter's API to scrape live tweets for any hashtag you would be interested in. Currently incomplete due to my twitter API access having been revoked. Not sure why, but currently in the process of recovering.  

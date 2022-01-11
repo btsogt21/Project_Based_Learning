@@ -4,10 +4,10 @@ from stack.items import StackItem
 
 
 class StackSpider(Spider):
-    name = "stack"
+    name = "stack_spider"
     allowed_domains = ["stackoverflow.com"]
     start_urls = [
-        "http://stackoverflow.com/questions?pagesize=50&sort=newest",
+        'https://stackoverflow.com/questions'
     ]
 
     def parse(self, response):

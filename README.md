@@ -1,5 +1,4 @@
 # Project Based Learning
-[![Gitter](https://badges.gitter.im/practical-tutorials/community.svg)](https://gitter.im/practical-tutorials/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 My attempts at a list of programming tutorials.
 

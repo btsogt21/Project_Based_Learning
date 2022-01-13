@@ -5,7 +5,6 @@ import cvlib
 
 
 
-
 def checker(link):
     result = 0
     img = io.imread(link,plugin='matplotlib')

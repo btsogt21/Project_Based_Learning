@@ -1,0 +1,22 @@
+Coding Notes + Thoughts, Tinder Bot (Selenium and ChromeWebDriver)
+
+Google login method still not properly implemented. Able to bypass bot detection but need to actually put in code for specifying which textbox to put email and password into, as well as code for clicking login and returnign to the original tinder window etc.
+
+Successfully bypassed necessity for login through using existing chrome profiles.
+
+Currently scrapes the first image of the profile in order to feed it to our AI which decides between male and female.
+
+Need to implement the 'wait until this element appears' functionality you saw in the more advanced tinder bot (https://github.com/frederikme/TinderBotz)
+
+Need to implement something that scrapes all images. Need to alter the checker.py file to accomodate for multiple images. 
+
+Need to implement human-like functionalities in swiping behaviour. Swipes should be through both the like button, actual swiping, as well as keyboard input. 
+
+Need to implement a way to scrape images that isn't dependent on static routes. Perhaps look up the xpath for a given profile's name, then do a search based on aria-label = 'that name'. Same thing for the 'click heart button' like method.
+
+Need to find out why the xpaths seem to change in the 'clikc heart button' and 'scrape image' functionalities, try to identify pattern of change
+
+Refine facial recognition so that it can better distinguish between male and female faces. 
+
+
+

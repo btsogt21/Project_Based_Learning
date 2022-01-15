@@ -112,7 +112,14 @@ class bot():
     def dislike(self):
 
         sleep(2)
-
+        xpath_dislike_button = ['//*[@id="q1323319974"]/div/div[1]/div/div/main/div/div[1]/div[1]/div/div[5]/div/div[2]/button', '//*[@id="q1323319974"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[2]/button']
+        for i in xpath_dislike_button:
+            try:
+                dislike = self.driver.find_element(By.XPATH, i)
+                dislike.clic    k()
+                break
+            except:
+                pass
         dislike = self.driver.find_element(By.XPATH,'//*[@id="q1323319974"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[2]/button')
         dislike.click()
         sleep(1)
@@ -126,7 +133,7 @@ class bot():
         sleep(2)
 
     def getimagelink(self):
-        sleep(1)
+        sleep(2)
         link = self.driver.find_element(By.XPATH,'//*[@id="q1323319974"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[3]/div[1]/div[1]/span[1]/div').value_of_css_property('background-image').split('\"')[1]
         return link
     def notintersted(self):

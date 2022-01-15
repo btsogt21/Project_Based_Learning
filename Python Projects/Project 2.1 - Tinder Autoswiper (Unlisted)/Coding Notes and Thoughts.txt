@@ -4,7 +4,9 @@ Google login method still not properly implemented. Able to bypass bot detection
 
 Successfully bypassed necessity for login through using existing chrome profiles.
 
-Currently scrapes the first image of the profile in order to feed it to our AI which decides between male and female.
+Need to implement login method that utilizes undetected chromedriver. 
+
+Currently scrapes the first image of the profile in order to feed it to our facial recognition app which decides between male and female. 
 
 Need to implement the 'wait until this element appears' functionality you saw in the more advanced tinder bot (https://github.com/frederikme/TinderBotz)
 
@@ -18,5 +20,5 @@ Need to find out why the xpaths seem to change in the 'clikc heart button' and '
 
 Refine facial recognition so that it can better distinguish between male and female faces. 
 
-
+randomize sleep times to look more human
 
